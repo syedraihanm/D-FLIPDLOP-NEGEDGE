@@ -1,5 +1,6 @@
 # D-FLIPDLOP-NEGEDGE
 **NAME: Syed Mohamed Raihan.M
+
 REG NO: 24900516
 
 **AIM:**
@@ -38,7 +39,7 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 
 **PROGRAM**
 
-D-FLIP FLOP WITH NEGATIVE EDGE TRIGGER:
+```
 module d_ff_neg_edge (d, clk, rst, q);
   input d, clk, rst;
   output reg q;
@@ -50,7 +51,7 @@ module d_ff_neg_edge (d, clk, rst, q);
       q <= d; // D input is passed to Q on the negative clock edge
   end
 endmodule
-
+```
 **RTL LOGIC FOR FLIPFLOPS**
 
 ![image](https://github.com/user-attachments/assets/cb71c69f-f961-4d23-9d56-47ba338a38d8)
@@ -59,11 +60,9 @@ endmodule
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
-![image](https://github.com/user-attachments/assets/89058bd1-721c-4287-84e8-cabc4870bed7)
 
 
-
-
+![Screenshot 2024-12-28 045522](https://github.com/user-attachments/assets/491305ce-f420-43e0-9529-ba50fc8ee9e0)
 
 
 **RESULTS**
